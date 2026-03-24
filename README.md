@@ -1,6 +1,6 @@
 # ABAP Clean Code & Development Practices
 
-## 👨‍💻 About This Repository
+## About This Repository
 
 Este repositorio presenta buenas prácticas de desarrollo ABAP basadas en experiencia real en proyectos SAP.
 
