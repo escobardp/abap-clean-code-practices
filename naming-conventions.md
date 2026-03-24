@@ -15,6 +15,7 @@ Estas convenciones buscan mejorar la legibilidad, mantenibilidad y estandarizaci
 ---
 
 ## Objects
+
 | Object Type               | Naming Convention                    | Example                  |
 |---------------------------|--------------------------------------|--------------------------|
 | Programa o Reporte        | `Z<Modulo><SubModulo>_<desc>`        | ZMMPUR_MOV_STOCK         |
@@ -45,3 +46,9 @@ Estas convenciones buscan mejorar la legibilidad, mantenibilidad y estandarizaci
 
 `<Sec>`: Secuencial de 3 digitos
 
+---
+
+## Objects
+
+| Object Type               | Naming Convention                    | Example                  |
+|---------------------------|--------------------------------------|--------------------------|
