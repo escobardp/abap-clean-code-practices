@@ -38,14 +38,6 @@ Estas convenciones buscan mejorar la legibilidad, mantenibilidad y estandarizaci
 | Proyectos(CMOD)           | `Z<Modulo>_<sec>`                    | ZHR_001                  |
 | Productos de BTE          | `Z<Modulo>_<sec>`                    | ZFI_001                  |
 
-`<Modulo>`: Modulo SAP
-
-`<SubModulo>`: SubModulo SAP
-
-`<desc>`: Descripcion
-
-`<Sec>`: Secuencial de 3 digitos
-
 ---
 ## Objects: Dictionary
 | Object Type       | Naming Convention                | Example         |
@@ -54,17 +46,11 @@ Estas convenciones buscan mejorar la legibilidad, mantenibilidad y estandarizaci
 | Vistas            | `Z<Modulo><SubModulo>_V_<desc>`  | ZMMPUR_V_CHECK  |
 | Estructuras       | `Z<Modulo><SubModulo>_E_<desc>`  | ZMMPUR_E_CHECK  |
 | Tipo Tabla        | `Z<Modulo><SubModulo>_TT_<desc>` | ZMMPUR_TT_CHECK |
-| Campo             | XXXXXXX                          | CHECK_TIME      |
+| Campo             | `<desc>`                         | CHECK_TIME      |
 | Elemento de dato  | `ZE_<desc>`                      | ZE_CHECK        | 
-| Dominio           | `ZD_<desc>                       | ZD_CHECK`       |
+| Dominio           | `ZD_<desc>`                      | ZD_CHECK        |
 | Ayuda de Búsqueda | `Z<Modulo><SubModulo>_TT_<desc>` | ZMMPUR_SH_CHECK |
 | Objeto de Bloqueo | `EZ_<desc>`                      | EZ_CHECK        |
-
-`<Modulo>`: Modulo SAP
-
-`<SubModulo>`: SubModulo SAP
-
-`<desc>`: Descripcion
 
 ---
 ## Objects: Programming
@@ -207,5 +193,11 @@ Estas convenciones buscan mejorar la legibilidad, mantenibilidad y estandarizaci
 | View                     | V_CCCC            | V_MAIN        |
 | ViewContainerElement     | VC_CCCC           | VC_MAIN_1     |
 | Window                   | W_XXXX            | W_MAIN        |
+
+## Convenciones base
+- `<Modulo>`: Módulo SAP
+- `<SubModulo>`: Submódulo SAP
+- `<desc>`: Descripción funcional
+- `<Sec>`: Secuencial de 3 dígitos
 
 
